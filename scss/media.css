@@ -1,0 +1,32 @@
+.outImg {
+  width: 90%;
+  height: 13rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.outImg:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.outImgEnd {
+  width: 90%;
+  height: 13rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.outImgEnd:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+/*# sourceMappingURL=media.css.map */

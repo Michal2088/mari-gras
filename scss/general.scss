@@ -1,0 +1,35 @@
+$Acolor:#9453A6;
+$Bcolor:#8CBF3F;
+$Ccolor:#F2CC0F;
+$darkColor:#0D0D0D;
+$lightColor:#F2F2F2;
+*{
+    font-family: 'Roboto', sans-serif;  
+}
+
+.headlines{
+    font: {
+        family: 'Fredoka' !important;
+        family: 'Henny Penny' !important;
+        weight: 900;
+       
+    }
+    background-image: linear-gradient(to left,$Bcolor,$Ccolor,$Acolor);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+// body{
+//     position: relative;
+// }
+// @media only screen and (min-width: 771px) {
+//  .bottom{
+//     position: fixed;
+//     bottom: 0%;
+//     width: 100%;
+// }
+
+//   }
+
+

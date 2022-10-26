@@ -1,0 +1,15 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.headlines {
+  font-family: 'Fredoka' !important;
+  font-family: 'Henny Penny' !important;
+  font-weight: 900;
+  background-image: -webkit-gradient(linear, right top, left top, from(#8CBF3F), color-stop(#F2CC0F), to(#9453A6));
+  background-image: linear-gradient(to left, #8CBF3F, #F2CC0F, #9453A6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/*# sourceMappingURL=general.css.map */

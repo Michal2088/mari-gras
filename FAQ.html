@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- my style link -->
+    <link rel="stylesheet" href="scss/style.css" />
+    <title>FAQ</title>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <div class="container logo"></div>
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0 mx-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active AColor mx-2"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link BColor mx-2"
+                aria-current="page"
+                href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link CColor mx-2"
+                aria-current="page"
+                href="media.html"
+                >Media</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link AColor mx-2"
+                aria-current="page"
+                href="FAQ.html"
+                >FAQ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link BColor mx-2"
+                aria-current="page"
+                href="Contacts.html"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Accordion -->
+    <div class="container mb-5">
+      <h1 class="headlines my-5">Mardi Gras Frequently Asked Questions</h1>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <!-- One -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button
+              class="accordion-button AccordionStyle collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne"
+            >
+              1: Is there an "official" Mardi Gras?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-headingOne"
+          >
+            <div class="accordion-body">
+              No! Mardi Gras is a holiday,It belongs to everyone. Do not believe
+              the claims of businesses who offer "official" Mardi Gras
+              merchandise or an "official" Mardi Gras website. Using the term
+              “official” is just a way for vendors to sell their products or
+              services to those who do not know better. Products or websites are
+              not licensed by the government for Mardi Gras. Each individual
+              parade krewe is responsible for all of its merchandise. In some
+              parts of the country, official organizations control their Mardi
+              Gras celebration, but this is not true in New Orleans.
+            </div>
+          </div>
+        </div>
+        <!-- Two -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button
+              class="accordion-button collapsed  AccordionStyle"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+            >
+              2: What is the weather usually like during Mardi Gras? What should
+              I pack?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo"
+          >
+            <div class="accordion-body">
+              The weather during Mardi Gras can vary from very cold to very
+              warm, almost hot. Sometimes it will change from one extreme to the
+              other during the same day. It’s a good idea to layer your clothes
+              since a chilly morning may turn into a warm afternoon. Since you
+              will be spending long days outside, pack comfortable shoes and
+              clothes that can get somewhat dirty. Don’t forget to check the
+              forecast for rain. If storms are predicted, then you’ll definitely
+              want to bring a raincoat!
+            </div>
+          </div>
+        </div>
+        <!-- Three -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button
+              class="accordion-button text-danger collapsed  AccordionStyle"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+            >
+              3: Where can I book a room with a balcony to watch the parades go
+              by?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree"
+          >
+            <div class="accordion-body">
+              The best option is to reserve a package in the French Quarter or
+              along the parade route that offers a balcony, food and a bathroom
+              pass.
+            </div>
+          </div>
+        </div>
+        <!-- Four -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button
+              class="accordion-button collapsed AccordionStyle"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFour"
+            >
+              4: How much does it cost to go to Mardi Gras?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFour"
+          >
+            <div class="accordion-body">
+              It's free! Not only that, but you'll leave with bags of Mardi Gras
+              beads and throws. That's why we call it the "Greatest Free Show on
+              Earth!"
+            </div>
+          </div>
+        </div>
+        <!-- Five -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+            <button
+              class="accordion-button collapsed  AccordionStyle"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFive"
+            >
+              5:Is there an idea behind the traditional colors of Mardi Gras?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFive"
+          >
+            <div class="accordion-body">
+              In 1872, Rex, the king of Carnival, proclaimed the official colors
+              of Mardi Gras to be purple, green and gold. While Arthur Hardy
+              believes they were probably chosen simply because they looked good
+              together, Rex assigned a meaning to the colors in his 1892 parade
+              titled Symbolism of Colors: Purple represents justice, green
+              stands for faith, and gold signifies power.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="mt-auto">
+      <div
+        class="alert alert-secondary text-center borderTop mb-0 bottom"
+        role="alert"
+      >
+        <h5>Mardi Gras 2022</h5>
+        <h6>All rights reserved © Michal Bracha</h6>
+        <div class="fs-4">
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-facebook-square"></i>
+          <i class="fa-brands fa-instagram-square"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- js bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

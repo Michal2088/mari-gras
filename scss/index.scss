@@ -1,0 +1,66 @@
+.img_size{
+    height: 28rem;
+    object-fit: cover;
+}
+.carrousel_font{
+    @include NavbarItem($lightColor);
+    font-weight:bolder;
+    text-shadow: black 3px 1px 1px;
+    &:hover{
+        transform:none;    
+        }
+}
+
+@mixin cardSt($borderColor) {   
+    height: 15rem;
+    border: 5px groove $borderColor;
+    &:hover {
+        transform: scale(1.1);
+        transition: transform 1s linear;
+      }
+   }
+.A_borderC{
+@include cardSt($Acolor);
+}
+.B_borderC{
+@include cardSt($Bcolor);
+}
+.C_borderC{
+@include cardSt($Ccolor);
+}
+.img6hight{
+    height: 10rem;
+}
+.img7_8hight{
+    height: 6rem;
+}
+.borderTop{
+    border-top: 5px solid $darkColor;
+}
+.img_left{
+    display: none;
+}
+@media only screen and (max-width: 650px) {
+  .carousel {
+    display: none;
+  }
+ .img_left {
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 356px) {
+  .myGrid{
+      display: grid;
+      gap: 1rem;
+  }
+  .cardWidth{
+      width: 90% !important;
+      grid-template-columns: 1fr;
+      text-align: center;
+  }
+}
+
+
+  

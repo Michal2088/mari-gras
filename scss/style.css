@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Henny+Penny&display=swap");
+@import url("http://fonts.cdnfonts.com/css/justicia");
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.headlines {
+  font-family: 'Fredoka' !important;
+  font-family: 'Henny Penny' !important;
+  font-weight: 900;
+  background-image: -webkit-gradient(linear, right top, left top, from(#8CBF3F), color-stop(#F2CC0F), to(#9453A6));
+  background-image: linear-gradient(to left, #8CBF3F, #F2CC0F, #9453A6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.logo {
+  background-image: url(/images/logo.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1.5rem;
+  right: 5rem;
+  width: 8rem;
+  height: 8rem;
+  background-size: contain;
+  background-position: center;
+}
+
+.logo:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: -webkit-transform 0.3s linear;
+  transition: -webkit-transform 0.3s linear;
+  transition: transform 0.3s linear;
+  transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    background-image: none;
+  }
+}
+
+.AColor {
+  font-family: 'Fredoka' !important;
+  font-family: 'Henny Penny' !important;
+  font-size: 2.5rem !important;
+  font-weight: 500 !important;
+  color: #9453A6 !important;
+}
+
+.AColor:hover {
+  text-shadow: #F2F2F2 1px 1px 1px;
+}
+
+.BColor {
+  font-family: 'Fredoka' !important;
+  font-family: 'Henny Penny' !important;
+  font-size: 2.5rem !important;
+  font-weight: 500 !important;
+  color: #8CBF3F !important;
+}
+
+.BColor:hover {
+  text-shadow: #F2F2F2 1px 1px 1px;
+}
+
+.CColor {
+  font-family: 'Fredoka' !important;
+  font-family: 'Henny Penny' !important;
+  font-size: 2.5rem !important;
+  font-weight: 500 !important;
+  color: #F2CC0F !important;
+}
+
+.CColor:hover {
+  text-shadow: #F2F2F2 1px 1px 1px;
+}
+
+.img_size {
+  height: 28rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carrousel_font {
+  font-family: 'Fredoka' !important;
+  font-family: 'Henny Penny' !important;
+  font-size: 2.5rem !important;
+  font-weight: 500 !important;
+  color: #F2F2F2 !important;
+  font-weight: bolder;
+  text-shadow: black 3px 1px 1px;
+}
+
+.carrousel_font:hover {
+  text-shadow: #F2F2F2 1px 1px 1px;
+}
+
+.carrousel_font:hover {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.A_borderC {
+  height: 15rem;
+  border: 5px groove #9453A6;
+}
+
+.A_borderC:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 1s linear;
+  transition: -webkit-transform 1s linear;
+  transition: transform 1s linear;
+  transition: transform 1s linear, -webkit-transform 1s linear;
+}
+
+.B_borderC {
+  height: 15rem;
+  border: 5px groove #8CBF3F;
+}
+
+.B_borderC:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 1s linear;
+  transition: -webkit-transform 1s linear;
+  transition: transform 1s linear;
+  transition: transform 1s linear, -webkit-transform 1s linear;
+}
+
+.C_borderC {
+  height: 15rem;
+  border: 5px groove #F2CC0F;
+}
+
+.C_borderC:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 1s linear;
+  transition: -webkit-transform 1s linear;
+  transition: transform 1s linear;
+  transition: transform 1s linear, -webkit-transform 1s linear;
+}
+
+.img6hight {
+  height: 10rem;
+}
+
+.img7_8hight {
+  height: 6rem;
+}
+
+.borderTop {
+  border-top: 5px solid #0D0D0D;
+}
+
+.img_left {
+  display: none;
+}
+
+@media only screen and (max-width: 650px) {
+  .carousel {
+    display: none;
+  }
+  .img_left {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 356px) {
+  .myGrid {
+    display: -ms-grid;
+    display: grid;
+    gap: 1rem;
+  }
+  .cardWidth {
+    width: 90% !important;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.imgAbout {
+  max-height: 30rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 1rem;
+}
+
+.outImg {
+  width: 90%;
+  height: 13rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.outImg:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.outImgEnd {
+  width: 90%;
+  height: 13rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+}
+
+.outImgEnd:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.AccordionStyle {
+  color: #9453A6 !important;
+  background-color: #F2F2F2 !important;
+}
+
+.AccordionStyle:focus {
+  color: #9453A6 !important;
+  background-color: #9453a618  !important;
+}
+
+.accordion-button.collapsed:active {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#9453A6'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.formColor, .AccordionStyle:focus, .btn_myBg:focus, input:focus,
+textarea:focus {
+  border-color: #9453A6 !important;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #9453A6 !important;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #9453A6 !important;
+  outline: 0 none !important;
+}
+
+.btn_myBg {
+  border-color: #9453A6 !important;
+  background-color: #9453A6 !important;
+  color: #F2F2F2;
+}
+
+.btn_myBg:focus {
+  color: #F2F2F2 !important;
+}
+
+.btn_myBg:hover {
+  color: #F2F2F2 !important;
+}
+
+.colorA {
+  color: #9453A6;
+}
+
+#counter_id {
+  background-color: white;
+  width: 100%;
+  height: 3.5rem;
+}
+
+.scoreStyle {
+  -webkit-animation-name: score;
+          animation-name: score;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@-webkit-keyframes score {
+  50% {
+    font-size: 3rem;
+  }
+  100% {
+    -webkit-transform: rotate(1080deg);
+            transform: rotate(1080deg);
+  }
+}
+
+@keyframes score {
+  50% {
+    font-size: 3rem;
+  }
+  100% {
+    -webkit-transform: rotate(1080deg);
+            transform: rotate(1080deg);
+  }
+}
+
+.borderCon {
+  border-right: 10px double #9453A6;
+}
+/*# sourceMappingURL=style.css.map */
